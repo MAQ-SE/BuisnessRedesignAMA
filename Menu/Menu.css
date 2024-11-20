@@ -1,0 +1,4 @@
+.menuGrid{
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
