@@ -10,9 +10,23 @@
 .heroimg{
     background-image: url(../assets/philly-Hero.jpg);
     width: auto;
-    height:900px;
+    height:650px;
     grid-column: 1 / 11;
     grid-row: 1 / 11;
     background-position:center center;
     background-size: cover;
+}
+
+.heroBox{
+background-color: black;
+opacity: 60%;
+grid-column: 2 / 10;
+grid-row: 2 / 10;
+}
+
+.textWhite{
+    grid-column: 1 / 11;
+    grid-row: 2 / 11;
+    font-size: 96px;
+    text-align: center;
 }
