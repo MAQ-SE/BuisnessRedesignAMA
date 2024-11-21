@@ -1,4 +1,29 @@
 .menuGrid{
-    grid-template-columns: repeat(12, 1fr);
+    display: grid;
+    grid-template-columns: 5fr 5fr ;
     grid-template-rows: repeat(8, 1fr);
+    column-gap: 40px;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+
+    }
+}
+
+.foodItemText{
+    font-size: 25px;
+}
+
+.foodDescription{
+    font-size: 17px;
+}
+
+.foodPrice{
+    font-size: 17px;
+}
+
+hr{
+    border-width: 2px;
+    color: #930000;
+    opacity: 1;
 }
