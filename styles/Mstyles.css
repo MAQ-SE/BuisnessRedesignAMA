@@ -71,6 +71,7 @@
   background-color: #8B0000;  
   color: white;
   padding: 1rem 0;
+  text-align: center;
 }
 
 .copyright-bar a {
@@ -85,4 +86,6 @@
   padding-left: 0;
   padding-right: 0;
 }
+
+
 
