@@ -133,10 +133,10 @@ left: 10rem;
     }
   
     .map-container {
-      width: 95%;
-      height: 90%;
+      width: 85%;
+      height: 80%;
       position: relative;
-      left: 4rem;
+      left: 2rem;
       z-index: 1;
     }
   
