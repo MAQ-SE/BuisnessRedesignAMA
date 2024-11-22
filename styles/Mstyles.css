@@ -21,6 +21,14 @@
   }
 
  
+  /* header */
+  .aboutHeader{
+    color: #8B0000;
+    position: relative;
+    top: 2rem;
+    font-family: "Josefin Slab", serif;
+    font-weight: bold;
+  }
 
 /* hours list */
 .hours-list {
