@@ -123,30 +123,41 @@ left: 10rem;
 }
 /* responsiveness */
 
+.business-hours {
+  position: relative;
+  left: 0.5rem;
+}
+
 @media (max-width: 768px) {
-  @media (max-width: 768px) {
-    .business-hours {
-      position: relative;
-      left: 8rem;
-      top: 20rem;
-      background-color: white;
-    }
-  
-    .map-container {
-      width: 95%;
-      height: 90%;
-      position: relative;
-      left: 4rem;
-      z-index: 1;
-    }
-  
+  .business-hours {
+    position: static;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 0 15px;
+  }
+}
+
+.map-container {
+  width: 95%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .map-container {
+    width: 90%;
+    height: 300px;
+    position: static;
+    margin: 1rem auto;
+  }
+}
     .hours-list {
       list-style: none;
       padding: 0;
       margin: 20px 0;
       text-align: center;
     }
-  }
+  
   .footer-heading {
     left: 0;
     
@@ -157,30 +168,23 @@ left: 10rem;
     left: 0;
     text-align: center;
   }
-}
+
 
 
 @media (max-width: 576px) {
-  .footer-heading {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .map-container {
-    width: 100%;
-    height: 150px;
-    margin-top: -20px;
-  }
-  
-  .business-hours li {
-    font-size: 0.9rem;
+  @media (max-width: 576px) {
+    html {
+      font-size: 14px;
+    }
     
+    .business-hours,
+    .address,
+    .footer-heading {
+      padding: 0 15px;
+      margin: 1rem auto;
+      width: 100%;
+      text-align: center;
+    }
   }
-  
-  .btn-outline-dark {
-    font-size: 0.9rem;
-    padding: 0.4rem;
-  }
+
 }
-
-
