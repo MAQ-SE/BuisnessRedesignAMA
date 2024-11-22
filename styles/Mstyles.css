@@ -45,27 +45,39 @@
 .footer-heading {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
+  position: relative;
+  left: 11rem;
 }
 
-.form-control {
-  border-radius: 0;
-  border: 1px solid black;
-  padding: 0.5rem;
-}
+
 
 .btn-outline-dark {
   border-radius: 0;
   width: 100%;
   text-transform: uppercase;
 }
+.address{
+  position: relative;
+  left: 11rem;
+}
+.footer-heading{
+
+}
+.business-hours{
+position: relative;
+left: 10rem;
+
+}
 
 .business-hours li {
   margin-bottom: 0.5rem;
 }
 .map-container {
-  width: 85%;
-  height: 150px;
-  margin-top: -60px; 
+  width: 95%;
+  height: 90%;
+  position: relative;
+  left: 4rem;
+
 }
 .copyright-bar {
   background-color: #8B0000;  
@@ -86,6 +98,28 @@
   padding-left: 0;
   padding-right: 0;
 }
+/* responsiveness */
 
+@media (max-width: 576px) {
+  .footer-heading {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .map-container {
+    width: 100%;
+    height: 150px;
+    margin-top: -20px;
+  }
+  
+  .business-hours li {
+    font-size: 0.9rem;
+  }
+  
+  .btn-outline-dark {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+  }
+}
 
 
