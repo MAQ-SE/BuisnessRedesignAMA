@@ -317,3 +317,81 @@ font-size: 1.5vw;
     border-radius: 5%;}
 
 /* Gallery End*/
+
+
+/* Footer Start */
+
+
+
+
+.Thicker-Line {
+    border: none;  
+    height: 4px;   
+    background-color: #8B0000;  
+    opacity: 1;    
+    margin: 2rem 0;  
+    width: 100%;  
+}  .footer {
+  background-color: white;
+  color: black;
+  font-family: "Josefin Slab", serif;
+}
+
+.footer-heading {
+  font-size: 1.5rem;
+  
+  position: relative;
+  left: 11rem;
+}
+
+
+
+.btn-outline-dark {
+  border-radius: 0;
+  width: 100%;
+  text-transform: uppercase;
+}
+.address{
+  position: relative;
+  left: 6rem;
+  font-weight: bold;
+}
+
+.business-hours{
+position: relative;
+left: 5rem;
+
+}
+
+.business-hours li {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.map-container {
+  width: 95%;
+  height: 90%;
+  position: relative;
+  left: 4rem;
+
+}
+.copyright-bar {
+  background-color: #8B0000;  
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.copyright-bar a {
+  text-decoration: none;
+}
+
+.copyright-bar a:hover {
+  text-decoration: underline;
+}
+
+.footer-full-width {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Footer End */
