@@ -24,6 +24,32 @@
 
 
 
+
+/*Navbar start*/
+.navbar {
+    background-color: #8B0000 !important;
+  }
+  
+  .navbar-brand {
+    position: absolute;
+    left: 49%;
+    transform: translateX(-50%);
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 1rem;
+    font-family: "Josefin Slab", serif;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ccc !important;
+  }
+/*Navbar End*/
+
+
 /*Hero Start*/
 
 .heroimg{
