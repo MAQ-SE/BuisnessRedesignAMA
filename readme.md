@@ -1,7 +1,7 @@
 Angel, Mason, ALan
 11/20/24
 Buisness Redesign
-Description..
+Description: We created a redesign of a local business's website and improved it 
 
 
 
