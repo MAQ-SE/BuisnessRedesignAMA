@@ -1,17 +1,458 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Menu.css">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <div class="menuGrid">
-      
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Menu.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mx-auto" href="/BuisnessRedesignAMA/index.html">
+        <img src="/BuisnessRedesignAMA/assets/Philly-Cheesesteak-FF-Option9.png" alt="Philly Cheesesteak" height="50">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/BuisnessRedesignAMA/AboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/BuisnessRedesignAMA/Menu/Menu.html">Menu</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#ContactUs">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#business-hours">Location</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+  </nav>
+  <div> </div>
+
+  <!-- Navbar End -->
+
+
+  <!-- Philly CheeseSteaks -->
+  <h1>Philly Cheesesteaks</h1>
+  <div class="phillyCheeseteakGrid mx-5">
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY CHEESESTEAK</h3>
+      <p class="foodDescription">Sauteed onion, hot and/or sweet peppers and melted American cheese</p>
+      <p class="foodPrice">7”/$8.59 – 10”/$10.79 – 15”/$15.79</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY GRANDSCAPE</h3>
+      <p class="foodDescription">Sauteed onion, hot and/or sweet peppers, melted white American cheese and mushrooms</p>
+      <p class="foodPrice">7”/$8.59 – 10”/$10.79 – 15”/$15.79</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY SUPREME</h3>
+      <p class="foodDescription">Sautéed onion, hot and/or sweet peppers, melted provolone cheese, mushrooms, pepperoni
+        and pizza sauce</p>
+      <p class="foodPrice">7”/$9.49 – 10”/$12.09 – 15”/$17.09</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY  HOAGIE</h3>
+      <p class="foodDescription">Sautéed onion, hot and/or sweet peppers, white melted American cheese, lettuce, tomato
+        and mayonnaise</p>
+      <p class="foodPrice">7”/$9.49 – 10”/$12.09 – 15”/$17.09</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY PIZZA</h3>
+      <p class="foodDescription">Sautéed onion, hot and/or sweet peppers, marinara sauce and melted provolone cheese</p>
+      <p class="foodPrice">7”/$8.99 – 10”/$11.59 – 15”/$16.49</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY ITALIAN</h3>
+      <p class="foodDescription">Sautéed onion, hot and/or sweet peppers, melted white American or provolone cheese,
+        mushrooms and spinach
+      </p>
+      <p class="foodPrice">7”/$9.49 – 10”/$12.09 – 15”/$11.49</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY BUFFALO </h3>
+      <p class="foodDescription">Sautéed onion, hot and/or sweet peppers, buffalo sauce and melted provolone cheese</p>
+      <p class="foodPrice">7”/$8.99 – 10”/$11.59 – 15”/$16.49</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY SICILIAN </h3>
+      <p class="foodDescription">Sautéed onion, hot and/or sweet peppers, melted white American cheese, pepperoni,
+        salami and vinaigrette dressing
+      </p>
+      <p class="foodPrice">7”/$9.49 – 10”/$12.09 – 15”/$17.09</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY BBQ</h3>
+      <p class="foodDescription">Sautéed onion, hot and/or sweet peppers, melted provolone cheese and BBQ sauce</p>
+      <p class="foodPrice">7”/$9.29 – 10”/$11.79 – 15”/$16.49</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY CAJUN</h3>
+      <p class="foodDescription">Sautéed onion, hot and/or sweet peppers, melted white American cheese and Cajun
+        seasoning</p>
+      <p class="foodPrice">7”/$9.29 – 10”/$11.79 – 15”/$16.79</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY BACON </h3>
+      <p class="foodDescription">Sautéed onion, hot and/or sweet peppers, melted white American cheese, bacon strips</p>
+      <p class="foodPrice">7”/$9.29 – 10”/$7.29 – 15”/$11.29</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY DELUXE </h3>
+      <p class="foodDescription">Sautéed onion, hot and/or sweet peppers, melted white provolone cheese, pepperoni and
+        mushrooms</p>
+      <p class="foodPrice">7”/$10.49 – 10”/$12.79 – 15”/$17.99</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY GARLIC </h3>
+      <p class="foodDescription">With roasted garlic, sauteed onions, hot&/ or sweet peppers & white american cheese</p>
+      <p class="foodPrice">7”/$9.29 – 10”/$11.79 – 15”/$16.79</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY BOMB</h3>
+      <p class="foodDescription">With white American cheese, cheese WHIZ, sautéed onions, hot &/ or sweet peppers</p>
+      <p class="foodPrice">7”/$10.29 – 10”/$12.09 – 15”/$16.79</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">STOCKTON BOMB</h3>
+      <p class="foodDescription">With crispy bacon & smothered with cheez WHIZ, then topped with onion rings & barbeque
+        sauce</p>
+      <p class="foodPrice">7”/$10.49 – 10”/$13.09 – 15”/$17.99</p>
+      <hr>
+    </div>
+  </div>
+  <!-- Philly CheeseSteaks End -->
+
+  <!-- Special Sandwhiches -->
+  <h1>Special Sandwiches</h1>
+  <div class="specialSandwichesGrid mx-5">
+
+    <div class="container">
+      <h3 class="foodItemText">VEGGIE SANDWICH</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">7”/$6.49 – 10”/$7.49 – 15”/$11.49 </p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">GYROS</h3>
+      <p class="foodDescription">Lamb & beef mixed with lettuce, tomatoes, onions & tzatziki sauce in a  pita bread</p>
+      <p class="foodPrice">$7.49 </p>
+      <hr>
+    </div>
+
+  </div>
+
+  <!-- Special Sandwhiches End -->
+
+  <!-- Burgers Section -->
+  <h1>Burgers</h1>
+  <div class="burgersGrid mx-5">
+
+    <div class="container">
+      <h3 class="foodItemText">CHEESEBURGER</h3>
+      <p class="foodDescription">Mayonnaise, ketchup, onions, lettuce, tomato and cheese</p>
+      <p class="foodPrice">$6.46 </p>
+      <hr>
+    </div>
+
+
+    <div class="container">
+      <h3 class="foodItemText">MUSHROOM CHEESEBURGER</h3>
+      <p class="foodDescription">Mayonnaise, ketchup, onions, lettuce, tomato, mushrooms and cheese</p>
+      <p class="foodPrice">$7.29</p>
+      <hr>
+    </div>
+
+
+    <div class="container">
+      <h3 class="foodItemText">BACON CHEESEBURGER</h3>
+      <p class="foodDescription">Mayonnaise, ketchup, onions, lettuce, tomato, bacon and cheese</p>
+      <p class="foodPrice">$7.19</p>
+      <hr>
+    </div>
+  </div>
+  <!-- Burgers End -->
+
+  <!-- Kids Meal -->
+  <h1>Kids Meal</h1>
+  <div class="kidsMealGrid mx-5">
+
+    <div class="container">
+      <h3 class="foodItemText">MUSHROOM CHEESEBURGER</h3>
+      <p class="foodDescription">Mayonnaise, ketchup, onions, lettuce, tomato, mushrooms and cheese</p>
+      <p class="foodPrice">$7.29</p>
+      <hr>
+    </div>
+  </div>
+  <!-- Kids Meal End -->
+
+  <!-- French Fries -->
+  <h1>French Fries</h1>
+  <div class="frenchFriesGrid mx-5">
+
+    <div class="container">
+      <h3 class="foodItemText">FRENCH FRIES</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">Small – $3.49 Large – $4.49</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">CURLY FRIES</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">Small – $3.59 Large – $4.59</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">GARLIC FRIES</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">Small – $4.29 Large – $5.29</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">CAJUN FRIES</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">Small – $4.29 Large – $5.29</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">CHEESE FRIES</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">Small – $4.39 Large – $5.49</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">BACON CHEESE FRIES</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">Small – $5.99 Large – $6.99</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PHILLY STEAK FRIES</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">Small – $7.69 Large – $8.69</p>
+      <hr>
+    </div>
+
+  </div>
+  <!-- French Fries End -->
+
+  <!-- Sides Section -->
+  <h1>Sides</h1>
+  <div class="sidesGrid mx-5">
+
+    <div class="container">
+      <h3 class="foodItemText">ONION RINGS</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">$4.79</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">BREADED MUSHROOMS</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">$4.79</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">BREADED ZUCCHINI</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">$4.79</p>
+      <hr>
+    </div>
+
+  </div>
+  <!-- Sides End -->
+
+  <!-- Extras Section -->
+  <h1>Extras</h1>
+  <div class="extrasGrid mx-5">
+
+    <div class="container">
+      <h3 class="foodItemText">CHEESE</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">7”/$2.00 – 10”/$2.50 – 15”/$3.00</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">VEGGIES (each) </h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">7”/$1.00 – 10”/$1.50 – 15”/$2.00</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">PEPPERONI / SALAMI</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">7”/ 75¢– 10”/$1.25 – 15”/$2.00</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">STEAK / CHICKEN</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">7”/$3.00 – 10”/$4.00 – 15”/$6.00</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">BACON</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">7”/ 50¢– 10”/$1.00 – 15”/$2.00</p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h3 class="foodItemText">HOT / SWEET PEPPERS</h3>
+      <p class="foodDescription"></p>
+      <p class="foodPrice">7”/ 50¢– 10”/$1.00 – 15”/$2.00</p>
+      <hr>
+    </div>
+
+  </div>
+  <!-- Extras End -->
+
+  <!-- Drinks Section -->
+  <h1>Drinks</h1>
+  <div class="drinksGrid mx-5">
+
+    <div class="container">
+      <h3 class="foodItemText">DRINKS</h3>
+      <p class="foodDescription">Soft Drinks</p>
+      <p class="foodPrice">Small – $1.69 Medium – $2.39 Large – $2.99</p>
+      <hr>
+    </div>
+
+  </div>
+  <!-- Drinks Section End -->
+
+
+<!-- footer section -->
+    
+<footer class="footer footer-full-width">
+  <div class="container py-5">
+      <div class="row">
+          <!-- https://getbootstrap.com/docs/5.0/forms/overview/ -->
+          <div id="ContactUs" class="contact-inputs col-md-4">
+              <h2 class="footer-heading">Contact Us</h2>
+                  <div class="mb-3">
+                      <label class="form-label">Name</label>
+                      <input type="text" class="border-dark">
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label">Email</label>
+                      <input type="email" class="border-dark">
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label">Phone</label>
+                      <input type="tel" class=" border-dark">
+                  </div>
+                  <div class="mb-3">
+                      <label class="message">Message</label>
+                      <input type="text" class="border-dark">
+                  </div>
+                  <button type="submit" class="btn btn-outline-dark">Submit</button>
+             
+          </div>
+
+          <!-- Location Map --> 
+           <!-- used https://www.embed-map.com/ -->
+          <div class="col-md-4">
+              <h2 class="footer-heading">Location</h2>
+              <div class="map-container">
+                <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;"><div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=1619+East+Hammer+Ln&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-html" rel="nofollow" href="https://kbj9qpmy.com/hrn" id="enable-maps-data">InMotion Hosting</a><style>#embedded-map-display .text-marker{} .map-generator{max-width: 100%; max-height: 100%; background: none;}</style>  
+              </div>
+              </div>
+          </div>
+
+          <!-- Business Hours -->
+          <div id="business-hours" class="col-md-4">
+              <h2 class="footer-heading">Business Hours</h2>
+              <ul class="hours-list business-hours">
+                  <li>Mon: 11:00 AM - 8:00 PM</li>
+                  <li>Tue: 11:00 AM - 8:00 PM</li>
+                  <li>Wed: 11:00 AM - 8:00 PM</li>
+                  <li>Thu: 11:00 AM - 8:00 PM</li>
+                  <li>Fri: 11:00 AM - 8:30 PM</li>
+                  <li>Sat: 11:00 AM - 8:30 PM</li>
+                  <li>Sun: 11:30 PM - 7:30 PM</li>
+              </ul>
+              <div class="address mt-4">
+                  <p>1619 East Hammer Ln #110<br>
+                  Stockton, CA 95210</p>
+                  <p>(209) 951-9538</p>
+              </div>
+          </div>
+      </div>
+    </div>
+  
+  <!-- Copyright Bar -->
+  <div class="copyright-bar">
+      <div class="container">
+          <p class="mb-0 text-center">© 2019 Philly Cheesesteak | <a href="#" class="text-white">Privacy Policy</a></p>
+      </div>
+  </div>
+</footer>
+<!-- footer end  -->
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
