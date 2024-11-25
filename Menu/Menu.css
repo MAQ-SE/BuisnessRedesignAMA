@@ -1,4 +1,250 @@
-.menuGrid{
-    grid-template-columns: repeat(12, 1fr);
+.phillyCheeseteakGrid {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
     grid-template-rows: repeat(8, 1fr);
-}
+    column-gap: 40px;
+  
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .specialSandwichesGrid {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 1fr;
+    column-gap: 40px;
+  
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .burgersGrid {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 40px;
+  
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .kidsMealGrid {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 1fr;
+    column-gap: 40px;
+  
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .frenchFriesGrid {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+  
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .sidesGrid {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 40px;
+  
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .extrasGrid {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 40px;
+  
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .drinksGrid {
+      display: grid;
+      grid-template-columns: 5fr 5fr;
+      grid-template-rows: 1fr;
+      column-gap: 40px;
+    
+      @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+    }
+  
+  
+    .navbar {
+      background-color: #8B0000 !important;
+    }
+    
+    .navbar-brand {
+      position: absolute;
+      left: 49%;
+      transform: translateX(-50%);
+    }
+    
+    .navbar-nav .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0 1rem;
+      font-family: "Josefin Slab", serif;
+    }
+    
+    .navbar-nav .nav-link:hover {
+      color: #ccc !important;
+    }
+  
+  
+  h1{
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+
+  .foodItemText {
+    font-size: 25px;
+  }
+  
+  .foodDescription {
+    font-size: 17px;
+  }
+  
+  .foodPrice {
+    font-size: 17px;
+  }
+  
+  hr {
+    border-width: 2px;
+    color: #930000;
+    opacity: 1;
+  }
+  
+  
+  
+  
+  /* Footer Styles */
+  
+  
+  .Thicker-Line {
+      border: none;  
+      height: 4px;   
+      background-color: #8B0000;  
+      opacity: 1;    
+      margin: 2rem 0;  
+      width: 100%;  
+  }  .footer {
+    background-color: white;
+    color: black;
+    font-family: "Josefin Slab", serif;
+  }
+  
+  .footer-heading {
+    font-size: 1.5rem;
+    
+    position: relative;
+    left: 11rem;
+  }
+  
+  
+  
+  .btn-outline-dark {
+    border-radius: 0;
+    width: 100%;
+    text-transform: uppercase;
+  }
+  .address{
+    position: relative;
+    left: 6rem;
+    font-weight: bold;
+  }
+  
+  .business-hours{
+  position: relative;
+  left: 5rem;
+  
+  }
+  
+  .business-hours li {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  .map-container {
+    width: 95%;
+    height: 90%;
+    position: relative;
+    left: 4rem;
+  
+  }
+  .copyright-bar {
+    background-color: #8B0000;  
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .copyright-bar a {
+    text-decoration: none;
+  }
+  
+  .copyright-bar a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-full-width {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* responsiveness */
+  
+  @media (max-width: 768px) {
+    
+      .business-hours {
+        position: relative;
+        left: -0.3rem;
+        top: 0.5rem;
+        
+      }
+    
+      .map-container {
+        width: 85%;
+        height: 80%;
+        position: relative;
+        left: 2rem;
+        z-index: 1;
+      }
+    
+      .hours-list {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        text-align: center;
+      }
+      .footer-heading {
+        left: 0;
+        top: .5rem;
+        text-align: center;
+      }
+    
+      .address {
+        left: 0;
+        text-align: center;
+      }
+    }
+  
+  
