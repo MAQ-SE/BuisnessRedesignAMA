@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Josefin-Sans;
+    src: url(/BuisnessRedesignAMA/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+
+body{
+    font-family: Josefin-Sans;
+}
 .phillyCheeseteakGrid {
     display: grid;
     grid-template-columns: 5fr 5fr;
@@ -114,6 +123,7 @@
     margin-left: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+    
   }
 
 
