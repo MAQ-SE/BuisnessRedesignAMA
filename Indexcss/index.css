@@ -338,11 +338,15 @@ font-size: 1.5vw;
 }
 
 .footer-heading {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
+    max-width: 150px;
+    position: relative;
+    left: 11rem;
+  }
   
-  position: relative;
-  left: 11rem;
-}
+  .size{
+    max-width: 220px;
+  }
 
 
 
@@ -355,6 +359,7 @@ font-size: 1.5vw;
   position: relative;
   left: 6rem;
   font-weight: bold;
+  max-width: 200px;
 }
 
 .business-hours{
@@ -406,7 +411,11 @@ left: 5rem;
         
         
     }
-    
+    .location{
+        display: flex;
+        justify-content: center;
+      }
+      
     .textWhite2{
         color: white;
         grid-column: 1 / 11;
@@ -677,3 +686,11 @@ font-size: 4vw;
         
     }
 }
+
+@media (max-width: 768px) {
+    .mb-3{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }

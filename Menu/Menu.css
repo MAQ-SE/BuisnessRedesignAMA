@@ -166,12 +166,14 @@ body{
   
   .footer-heading {
     font-size: 1.5rem;
-    
+    max-width: 150px;
     position: relative;
     left: 11rem;
   }
   
-  
+  .size{
+    max-width: 220px;
+  }
   
   .btn-outline-dark {
     border-radius: 0;
@@ -182,6 +184,7 @@ body{
     position: relative;
     left: 6rem;
     font-weight: bold;
+    max-width: 200px;
   }
   
   .business-hours{
@@ -255,6 +258,16 @@ body{
         left: 0;
         text-align: center;
       }
+      .mb-3{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .location{
+        display: flex;
+        justify-content: center;
+      }
     }
-  
+
   
