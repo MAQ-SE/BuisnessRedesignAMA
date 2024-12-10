@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Josefin-Sans;
+    src: url(/BuisnessRedesignAMA/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+
+body{
+    font-family: Josefin-Sans;
+}
 .phillyCheeseteakGrid {
     display: grid;
     grid-template-columns: 5fr 5fr;
@@ -114,6 +123,7 @@
     margin-left: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+    
   }
 
 
@@ -156,12 +166,14 @@
   
   .footer-heading {
     font-size: 1.5rem;
-    
+    max-width: 150px;
     position: relative;
     left: 11rem;
   }
   
-  
+  .size{
+    max-width: 220px;
+  }
   
   .btn-outline-dark {
     border-radius: 0;
@@ -172,6 +184,7 @@
     position: relative;
     left: 6rem;
     font-weight: bold;
+    max-width: 200px;
   }
   
   .business-hours{
@@ -245,6 +258,16 @@
         left: 0;
         text-align: center;
       }
+      .mb-3{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .location{
+        display: flex;
+        justify-content: center;
+      }
     }
-  
+
   
