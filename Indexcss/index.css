@@ -26,6 +26,26 @@
 
 
 /*Navbar start*/
+.logo {
+  position: relative;
+  width: 5em;
+  height: 0;
+}
+.logo .wrapper {
+  position: absolute;
+  top:-2rem;
+  left:0;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  border-radius: 100%;
+  background-color: #8B0000 
+}
+.logo img {
+  width: 100%;
+  padding: 0.5em;
+}
+
 .navbar {
     background-color: #8B0000 !important;
   }
@@ -47,6 +67,7 @@
   .navbar-nav .nav-link:hover {
     color: #ccc !important;
   }
+  
 /*Navbar End*/
 
 
@@ -339,15 +360,12 @@ font-size: 1.5vw;
 
 .footer-heading {
     font-size: 1.5rem;
-    max-width: 150px;
-    position: relative;
-    left: 11rem;
-  }
-  
-  .size{
-    max-width: 220px;
   }
 
+  .mb-3{
+    display: flex;
+    flex-direction: column;
+  }
 
 
 .btn-outline-dark {
@@ -357,18 +375,15 @@ font-size: 1.5vw;
 }
 .address{
   position: relative;
-  left: 6rem;
   font-weight: bold;
-  max-width: 200px;
 }
 
 .business-hours{
 position: relative;
-left: 5rem;
 
 }
 
-.business-hours li {
+.business-hours {
   margin-bottom: 0.5rem;
   font-weight: bold;
 }
@@ -376,7 +391,6 @@ left: 5rem;
   width: 95%;
   height: 90%;
   position: relative;
-  left: 4rem;
 
 }
 .copyright-bar {
@@ -696,3 +710,63 @@ font-size: 4vw;
       flex-direction: column;
     }
   }
+
+
+  @media (max-width: 768px) {
+    
+    .business-hours {
+      position: relative;
+      top: 0.5rem;
+      
+    }
+  
+    .map-container {
+      width: 100%;
+      height: 80%;
+      position: relative;
+      z-index: 1;
+    }
+  
+    .hours-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      text-align: center;
+    }
+    .footer-heading {
+      margin-top: 1rem;
+      text-align: center;
+    }
+  
+    .address {
+      text-align: center;
+    }
+    .mb-3{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .location{
+      display: flex;
+      justify-content: center;
+    }
+
+    .hours-list{
+      display: flex;
+      justify-content: center;
+    }
+    .business{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .hours-list{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      left: 140px;
+    }
+  }
+
+
