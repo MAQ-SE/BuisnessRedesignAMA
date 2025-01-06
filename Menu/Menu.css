@@ -166,13 +166,10 @@ body{
   
   .footer-heading {
     font-size: 1.5rem;
-    max-width: 150px;
-    position: relative;
-    left: 11rem;
   }
-  
-  .size{
-    max-width: 220px;
+  .mb-3{
+    display: flex;
+    flex-direction: column;
   }
   
   .btn-outline-dark {
@@ -182,18 +179,15 @@ body{
   }
   .address{
     position: relative;
-    left: 6rem;
     font-weight: bold;
-    max-width: 200px;
   }
   
   .business-hours{
   position: relative;
-  left: 5rem;
   
   }
   
-  .business-hours li {
+  .business-hours {
     margin-bottom: 0.5rem;
     font-weight: bold;
   }
@@ -201,7 +195,7 @@ body{
     width: 95%;
     height: 90%;
     position: relative;
-    left: 4rem;
+
   
   }
   .copyright-bar {
@@ -229,16 +223,14 @@ body{
     
       .business-hours {
         position: relative;
-        left: -0.3rem;
         top: 0.5rem;
         
       }
     
       .map-container {
-        width: 85%;
+        width: 100%;
         height: 80%;
         position: relative;
-        left: 2rem;
         z-index: 1;
       }
     
@@ -249,13 +241,11 @@ body{
         text-align: center;
       }
       .footer-heading {
-        left: 0;
         top: .5rem;
         text-align: center;
       }
     
       .address {
-        left: 0;
         text-align: center;
       }
       .mb-3{
@@ -267,6 +257,22 @@ body{
       .location{
         display: flex;
         justify-content: center;
+      }
+
+      .hours-list{
+        display: flex;
+        justify-content: center;
+      }
+      .business{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .hours-list{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 140px;
       }
     }
 
